@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+    column-count: 2;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-shadow: 1px 1px #000000;
+}
+
+div {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 48%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    padding: 1px;
+}
+
+.one {
+    background-color: #f44336;
+}
+
+.two {
+    background-color: #ff9800;
+}
+
+.three {
+    background-color: #ffeb3b;
+}
+
+.four {
+    background-color: #8bc34a;
+}
+
+.five {
+    background-color: #2196f3;
+}
+
+.six {
+    background-color: #9c27b0;
+}
+
+@media only screen and (min-width: 600px) {
+    div {
+        width: 33%;
+    }
+}

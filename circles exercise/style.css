@@ -1,0 +1,50 @@
+body {
+    height: 100vh;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    }
+
+.circles {
+    border: 1px solid black;
+    position: relative;
+    height: 400px;
+    width: 400px;
+}
+
+.article {
+    width: 30%;
+}
+
+.dot {
+    border-radius: 50%;
+}
+
+.small {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 0, 0, 0.692);
+    position: absolute;
+    top: 50px;
+    left: 175px;
+}
+
+.medium {
+    height: 150px;
+    width: 150px;
+    background-color: #ffff00b0;
+    position: absolute;
+    left: 125px;
+    top: 110px;
+}
+
+.large {
+    height: 200px;
+    width: 200px;
+    background-color: rgba(0, 128, 0, 0.692);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
