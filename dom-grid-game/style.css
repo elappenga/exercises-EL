@@ -1,0 +1,24 @@
+.grid {
+    display: flex;
+    width: 410px;
+    flex-wrap: wrap;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    background-color: slategray;
+    margin: 1px;
+}
+
+.clicked {
+    background-color: green;
+}
+
+.it {
+    background-color: red;
+}
+
+.gameOver {
+    background-color: yellow;
+}
